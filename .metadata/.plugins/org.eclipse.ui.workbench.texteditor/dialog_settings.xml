@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="send"/>
+		<item value="handle_led_timer"/>
+		<item value="HAL_UART_RxC"/>
+		<item value="Queue"/>
+		<item value="xTaskIncrementTick"/>
+		<item value="SEGGER"/>
+		<item value="configLIBRARY_LOWEST_INTERRUPT_PRIORITY"/>
+		<item value="vTaskDelete"/>
+		<item value="tskTaskControlBlock"/>
+		<item value="xPortStartSchedule"/>
+		<item value="taskYIELD"/>
+		<item value="vTaskSwitchContext"/>
+		<item value="taskSELECT_HIGHEST_PRIORITY_TASK"/>
+		<item value="prvIdleTask"/>
+		<item value="configIDLE_TAS"/>
+	</list>
+</section>

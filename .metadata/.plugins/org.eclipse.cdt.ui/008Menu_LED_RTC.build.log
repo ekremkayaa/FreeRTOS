@@ -1,0 +1,10 @@
+21:28:57 **** Incremental Build of configuration Debug for project 008Menu_LED_RTC ****
+make -j12 all 
+arm-none-eabi-size  008Menu_LED_RTC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39192	    128	  79448	 118768	  1cff0	008Menu_LED_RTC.elf
+Finished building: default.size.stdout
+ 
+
+21:28:58 Build Finished. 0 errors, 0 warnings. (took 542ms)
+

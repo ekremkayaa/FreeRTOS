@@ -1,0 +1,14 @@
+15:45:51 **** Incremental Build of configuration Debug for project 009Bin_Sema_Tasks ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/kisisel/embedded/udemy/freeRTOS/rtos_workspace/009Bin_Sema_Tasks/Third_Party/FreeRTOS" -I"C:/kisisel/embedded/udemy/freeRTOS/rtos_workspace/009Bin_Sema_Tasks/Third_Party/FreeRTOS/include" -I"C:/kisisel/embedded/udemy/freeRTOS/rtos_workspace/009Bin_Sema_Tasks/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/kisisel/embedded/udemy/freeRTOS/rtos_workspace/009Bin_Sema_Tasks/Third_Party/FreeRTOS/portable/MemMang" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "009Bin_Sema_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\kisisel\embedded\udemy\freeRTOS\rtos_workspace\009Bin_Sema_Tasks\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="009Bin_Sema_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 009Bin_Sema_Tasks.elf
+ 
+arm-none-eabi-size  009Bin_Sema_Tasks.elf 
+arm-none-eabi-objdump -h -S 009Bin_Sema_Tasks.elf  > "009Bin_Sema_Tasks.list"
+   text	   data	    bss	    dec	    hex	filename
+  29560	    108	  79412	 109080	  1aa18	009Bin_Sema_Tasks.elf
+Finished building: default.size.stdout
+ 
+Finished building: 009Bin_Sema_Tasks.list
+ 
